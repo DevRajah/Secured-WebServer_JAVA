@@ -19,7 +19,7 @@ public class SimpleWebServer {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            log("ERROR: " + e.getMessage());
         }
     }
 
@@ -70,7 +70,7 @@ public class SimpleWebServer {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+            log("ERROR: " + e.getMessage());
         }
     }
     private static String sanitizeInput(String input) {
@@ -80,7 +80,7 @@ public class SimpleWebServer {
     input = input.replaceAll(">", "");
 
     // Remove directory traversal patterns
-    input = input.replaceAll("\\.\\.@.=.", "");
+    input = input.replaceAll("\\.\\.=.", "");
 
     // Limit length
     if (input.length() > 500) {
@@ -128,6 +128,7 @@ private static void handlePost(BufferedReader in, OutputStream out) throws IOExc
     in.read(body, 0, contentLength);
 
     String postData = new String(body);
+    log("POST request received");
 
     //Validate input
     String safeData = sanitizeInput(postData);
@@ -138,7 +139,7 @@ private static void handlePost(BufferedReader in, OutputStream out) throws IOExc
     log("POST data saved successfully");
 
     sendResponse(out, "200 OK", "Form submitted securely!");
-    log("POST request received");
+
 }
 
 
@@ -163,11 +164,10 @@ private static void handlePost(BufferedReader in, OutputStream out) throws IOExc
 
         // SECURITY CHECK: ensure file is inside ROOT_DIR
         if (!requestedFile.getPath().startsWith(root.getPath())) {
-            sendResponse(out, "403 Forbidden", "Access denied");
-            return;
-        }
-        log("SECURITY: Blocked directory traversal attempt → " + path);
-
+    log("SECURITY: Blocked directory traversal attempt → " + path);
+    sendResponse(out, "403 Forbidden", "Access denied");
+    return;
+}
 
         if (requestedFile.exists() && !requestedFile.isDirectory()) {
             byte[] content = readFile(requestedFile);
