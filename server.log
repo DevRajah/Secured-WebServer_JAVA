@@ -1,0 +1,17 @@
+[2026-04-06T10:17:02.879361500] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:17:02.892133800] GET /index.html → 404 Not Found
+[2026-04-06T10:17:14.407348800] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:17:14.414192700] GET /index.html → 404 Not Found
+[2026-04-06T10:20:31.545860800] WARNING: Client sent empty request
+[2026-04-06T10:20:31.547373900] WARNING: Client sent empty request
+[2026-04-06T10:20:31.567019400] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:20:31.572020800] GET /index.html → 200 OK
+[2026-04-06T10:20:39.192644900] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T10:20:39.197645100] POST raw data: name=<b>Admin</b>&message=hi
+[2026-04-06T10:20:39.198643800] POST request received
+[2026-04-06T10:20:39.201650] SECURITY: Malicious input detected → name=<b>Admin</b>&message=hi
+[2026-04-06T10:20:39.202645400] POST data (sanitised): name=bAdmin/b&message=hi
+[2026-04-06T10:20:39.203645400] POST data saved successfully
+[2026-04-06T10:31:30.333190300] WARNING: Client sent empty request
+[2026-04-06T10:36:20.873833200] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:36:20.879526500] GET /index.html → 200 OK
