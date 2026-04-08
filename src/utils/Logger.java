@@ -4,10 +4,12 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import config.ServerConfig;
+
 
 public class Logger {
     // Log file where server activity is stored
-    private static final String LOG_FILE = "server.log";
+private static final String LOG_FILE = ServerConfig.LOG_FILE;
 
     public static void log(String message) {
 

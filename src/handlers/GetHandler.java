@@ -5,9 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import utils.Logger;
 import http.HttpResponse;
-import handlers.GetHandler;
-//import handlers.PostHandler;
-
+import config.ServerConfig;
 import utils.FileManager;
 
 // Get request handler with security checks
@@ -34,7 +32,7 @@ public class GetHandler {
             }
 
             // Normalize path to prevent traversal
-            File root = new File("www").getCanonicalFile();
+           File root = new File(ServerConfig.ROOT_DIR).getCanonicalFile();
 
             File requestedFile =
                 new File(root,path).getCanonicalFile();

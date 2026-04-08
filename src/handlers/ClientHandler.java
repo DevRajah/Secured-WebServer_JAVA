@@ -34,7 +34,6 @@ public class ClientHandler {
                 Logger.log("WARNING: Client sent empty request");
                 return;
             }
-            System.out.println("Request: " + requestLine);
             Logger.log("Incoming request: " + requestLine);
 
 

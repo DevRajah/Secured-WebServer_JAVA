@@ -7,16 +7,13 @@ import java.net.URLDecoder;
 
 import utils.Logger;
 import http.HttpResponse;
-//import handlers.GetHandler;
-import handlers.PostHandler;
 
 import utils.FileManager;
 import utils.Sanitizer;
 
-
 // Post request handler with security checks
 public class PostHandler {
-       public static void handlePost(BufferedReader in, OutputStream out) throws IOException {
+    public static void handlePost(BufferedReader in, OutputStream out) throws IOException {
 
         try {
 
@@ -28,25 +25,24 @@ public class PostHandler {
 
                 if (line.startsWith("Content-Length:")) {
 
-                    contentLength =
-                        Integer.parseInt(line.split(":")[1].trim());
+                    contentLength = Integer.parseInt(line.split(":")[1].trim());
                 }
             }
 
             // Limit size (DoS protection)
             if (contentLength > 1024) {
 
-                HttpResponse.sendResponse(out,"413 Payload Too Large","Too much data");
+                HttpResponse.sendResponse(out, "413 Payload Too Large", "Too much data");
                 return;
             }
 
             // Read POST body
             char[] body = new char[contentLength];
 
-            in.read(body,0,contentLength);
+            in.read(body, 0, contentLength);
 
             String postData = new String(body);
-              // Decode first
+            // Decode first
             postData = URLDecoder.decode(postData, "UTF-8");
 
             // Step 2: Log raw (optional but good)
@@ -64,7 +60,12 @@ public class PostHandler {
 
             Logger.log("POST data saved successfully");
 
-            HttpResponse.sendResponse(out,"200 OK","Form submitted securely!");
+            // HttpResponse.sendResponse(out,"200 OK","Form submitted securely!");
+
+            String responseBody = "<h1>Form submitted successfully</h1>" +
+            "<a href=\"/\">Go back</a>";
+
+            HttpResponse.sendResponse(out, "200 OK", responseBody);
 
         }
 
@@ -72,10 +73,8 @@ public class PostHandler {
 
             Logger.log("ERROR (POST): " + e.getMessage());
 
-            HttpResponse.sendResponse(out,"500 Internal Server Error","Server error");
+            HttpResponse.sendResponse(out, "500 Internal Server Error", "Server error");
         }
     }
-    
+
 }
-
-

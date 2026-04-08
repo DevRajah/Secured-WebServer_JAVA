@@ -6,15 +6,16 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import config.ServerConfig;
 import http.HttpResponse;
 
 public class FileManager {
     // Root directory where the server serves files
-    private static final String ROOT_DIR = "www";
+    private static final String ROOT_DIR = ServerConfig.ROOT_DIR;
 
     public static void saveToFile(String data) {
 
-        File file = new File(ROOT_DIR + "data.txt");
+        File file = new File(ROOT_DIR + "/data.txt");
 
         try (
                 FileWriter fw = new FileWriter(file, true);
@@ -35,24 +36,37 @@ public class FileManager {
         }
     }
 
+    // public static File getSafeFile(String path) throws IOException {
+
+    //     File file = FileManager.getSafeFile(path);
+
+    //     if (file == null || !file.exists()) {
+    //          //HttpResponse.forbidden(out);
+    //          return null;
+    //     }
+
+    //     File root = new File(ROOT_DIR).getCanonicalFile();
+    //     File requestedFile = new File(root, path).getCanonicalFile();
+
+    //     if (!requestedFile.getCanonicalPath().startsWith(root.getCanonicalPath())) {
+    //         return null;
+    //     }
+        
+
+    //     return requestedFile;
+        
+    //}
+
     public static File getSafeFile(String path) throws IOException {
 
-        File file = FileManager.getSafeFile(path);
+    File root = new File(ROOT_DIR).getCanonicalFile();
+    File requestedFile = new File(root, path).getCanonicalFile();
 
-        if (file == null || !file.exists()) {
-            return HttpResponse.forbidden();
-        }
-
-        File root = new File(ROOT_DIR).getCanonicalFile();
-        File requestedFile = new File(root, path).getCanonicalFile();
-
-        if (!requestedFile.getCanonicalPath().startsWith(root.getCanonicalPath())) {
-            return null;
-        }
-        Logger.log("Accessing file: " + requestedFile.getPath());
-
-        return requestedFile;
-        
+    if (!requestedFile.getCanonicalPath().startsWith(root.getCanonicalPath())) {
+        return null;
     }
+
+    return requestedFile;
+}
 
 }

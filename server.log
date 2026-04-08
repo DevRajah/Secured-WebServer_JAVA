@@ -15,3 +15,47 @@
 [2026-04-06T10:31:30.333190300] WARNING: Client sent empty request
 [2026-04-06T10:36:20.873833200] Incoming request: GET / HTTP/1.1
 [2026-04-06T10:36:20.879526500] GET /index.html → 200 OK
+[2026-04-06T10:39:00.361387100] WARNING: Client sent empty request
+[2026-04-06T10:49:37.233675300] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:49:37.231677800] WARNING: Client sent empty request
+[2026-04-06T10:49:37.238676700] GET /index.html → 200 OK
+[2026-04-06T10:49:49.384014] WARNING: Client sent empty request
+[2026-04-06T10:49:49.384014] Incoming request: POST / HTTP/1.1
+[2026-04-06T10:49:49.386013800] POST raw data: 
+[2026-04-06T10:49:49.386013800] POST request received
+[2026-04-06T10:49:49.387014300] POST data (sanitised): 
+[2026-04-06T10:49:49.388020600] POST data saved successfully
+[2026-04-06T10:50:06.135663400] Incoming request: GET / HTTP/1.1
+[2026-04-06T10:50:06.134679500] WARNING: Client sent empty request
+[2026-04-06T10:50:06.139662200] GET /index.html → 200 OK
+[2026-04-06T11:06:25.152084900] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T11:06:25.154094] POST raw data: name=sam&message=
+[2026-04-06T11:06:25.159605900] POST request received
+[2026-04-06T11:06:25.165618900] POST data (sanitised): name=sam&message=
+[2026-04-06T11:06:25.168122900] POST data saved successfully
+[2026-04-06T11:14:39.265619200] WARNING: Client sent empty request
+[2026-04-06T11:21:54.630116400] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T11:21:54.634682] POST raw data: name=sam&message=hi
+[2026-04-06T11:21:54.636687800] POST request received
+[2026-04-06T11:21:54.637690700] POST data (sanitised): name=sam&message=hi
+[2026-04-06T11:21:54.643730900] POST data saved successfully
+[2026-04-06T11:22:35.625812] WARNING: Client sent empty request
+[2026-04-06T11:44:30.831840800] Incoming request: GET / HTTP/1.1
+[2026-04-06T11:44:30.836839500] GET /index.html → 200 OK
+[2026-04-06T11:44:37.316529300] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T11:44:37.334520900] POST raw data: name=sam&message=
+[2026-04-06T11:44:37.336517200] POST request received
+[2026-04-06T11:44:37.337529600] POST data (sanitised): name=sam&message=
+[2026-04-06T11:44:37.338547] POST data saved successfully
+[2026-04-06T12:16:52.847472900] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T12:16:52.856981] POST raw data: name=sam&message=hi
+[2026-04-06T12:16:52.856981] POST request received
+[2026-04-06T12:16:52.857981200] POST data (sanitised): name=sam&message=hi
+[2026-04-06T12:16:52.858979300] POST data saved successfully
+[2026-04-06T12:22:24.237547600] WARNING: Client sent empty request
+[2026-04-06T16:18:14.380702700] Incoming request: POST /submit HTTP/1.1
+[2026-04-06T16:18:14.384701200] POST raw data: name=sam&message=hi
+[2026-04-06T16:18:14.396735300] POST request received
+[2026-04-06T16:18:14.405996900] POST data (sanitised): name=sam&message=hi
+[2026-04-06T16:18:14.408018600] POST data saved successfully
+[2026-04-06T16:20:02.110010400] WARNING: Client sent empty request
