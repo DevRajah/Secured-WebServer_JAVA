@@ -59,3 +59,255 @@
 [2026-04-06T16:18:14.405996900] POST data (sanitised): name=sam&message=hi
 [2026-04-06T16:18:14.408018600] POST data saved successfully
 [2026-04-06T16:20:02.110010400] WARNING: Client sent empty request
+[2026-04-08T14:57:03.753581300] Incoming request: GET / HTTP/1.1
+[2026-04-08T14:57:03.829695900] GET /index.html → 200 OK
+[2026-04-08T14:57:05.693578900] Incoming request: GET / HTTP/1.1
+[2026-04-08T14:57:05.696722600] GET /index.html → 200 OK
+[2026-04-08T14:57:12.814171] Incoming request: POST /submit HTTP/1.1
+[2026-04-08T14:57:12.818160300] POST raw data: name=sam&message=hi
+[2026-04-08T14:57:12.820160200] POST request received
+[2026-04-08T14:57:12.821168700] POST data (sanitised): name=sam&message=hi
+[2026-04-08T14:57:12.829160600] POST data saved successfully
+[2026-04-08T15:01:30.552063300] WARNING: Client sent empty request
+[2026-04-08T15:05:59.231280200] Incoming request: GET / HTTP/1.1
+[2026-04-08T15:05:59.242359200] GET /index.html → 200 OK
+[2026-04-08T15:06:09.816071900] Incoming request: POST /submit HTTP/1.1
+[2026-04-08T15:06:09.817073500] POST raw data: name=sam&message=hi
+[2026-04-08T15:06:09.818291200] POST request received
+[2026-04-08T15:06:09.823621900] POST data (sanitised): name=sam&message=hi
+[2026-04-08T15:06:09.825622300] POST data saved successfully
+[2026-04-08T15:06:44.967218900] Incoming request: POST /submit HTTP/1.1
+[2026-04-08T15:06:44.979756100] POST raw data: name=sam&message=hi
+[2026-04-08T15:06:44.980763900] POST request received
+[2026-04-08T15:06:44.981807900] POST data (sanitised): name=sam&message=hi
+[2026-04-08T15:06:44.983760300] POST data saved successfully
+[2026-04-08T15:06:44.988766300] Incoming request: GET /success.html HTTP/1.1
+[2026-04-08T15:06:44.992764200] GET /success.html → 200 OK
+[2026-04-08T15:07:05.778098200] Incoming request: GET / HTTP/1.1
+[2026-04-08T15:07:05.781618700] GET /index.html → 200 OK
+[2026-04-08T15:07:09.393048700] Incoming request: POST /submit HTTP/1.1
+[2026-04-08T15:07:09.396048800] POST raw data: name=sam&message=hi
+[2026-04-08T15:07:09.398048700] POST request received
+[2026-04-08T15:07:09.407590] POST data (sanitised): name=sam&message=hi
+[2026-04-08T15:07:09.410586200] POST data saved successfully
+[2026-04-08T15:07:09.416583200] Incoming request: GET /success.html HTTP/1.1
+[2026-04-08T15:07:09.421631100] GET /success.html → 200 OK
+[2026-04-08T15:07:13.489478200] Incoming request: GET / HTTP/1.1
+[2026-04-08T15:07:13.493472500] GET /index.html → 200 OK
+[2026-04-08T15:07:19.481588200] Incoming request: POST /submit HTTP/1.1
+[2026-04-08T15:07:19.484679100] POST raw data: name=&message=
+[2026-04-08T15:07:19.486227400] POST request received
+[2026-04-08T15:07:19.488802300] POST data (sanitised): name=&message=
+[2026-04-08T15:07:19.489804100] POST data saved successfully
+[2026-04-08T15:07:19.517883700] Incoming request: GET /success.html HTTP/1.1
+[2026-04-08T15:07:19.524881500] GET /success.html → 200 OK
+[2026-04-08T15:07:21.602193] Incoming request: GET / HTTP/1.1
+[2026-04-08T15:07:21.628190900] GET /index.html → 200 OK
+[2026-04-08T15:07:43.105049700] WARNING: Client sent empty request
+[2026-04-09T10:44:40.558422600] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T10:44:40.597513700] POST raw data: name=Bola&message=Bawo ni
+[2026-04-09T10:44:40.598742400] POST request received
+[2026-04-09T10:44:40.604436800] POST data (sanitised): name=Bola&message=Bawo ni
+[2026-04-09T10:44:40.606908800] POST data saved successfully
+[2026-04-09T10:44:40.614508900] Incoming request: GET /success.html HTTP/1.1
+[2026-04-09T10:44:40.623737200] GET /success.html → 200 OK
+[2026-04-09T10:44:43.292889100] Incoming request: GET / HTTP/1.1
+[2026-04-09T10:44:43.298887600] GET /index.html → 200 OK
+[2026-04-09T10:54:17.713272800] WARNING: Client sent empty request
+[2026-04-09T10:57:14.474024700] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T10:57:14.486085100] POST raw data: name=&message=
+[2026-04-09T10:57:14.486576700] POST request received
+[2026-04-09T10:57:14.488162200] SECURITY: Empty fields detected
+[2026-04-09T10:57:25.622743] Incoming request: GET / HTTP/1.1
+[2026-04-09T10:57:25.635871900] GET /index.html → 200 OK
+[2026-04-09T10:57:31.720369800] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T10:57:31.721378300] POST raw data: name=sam&message=hi
+[2026-04-09T10:57:31.725399200] POST request received
+[2026-04-09T10:57:31.729354600] POST data (sanitised): name=sam&message=hi
+[2026-04-09T10:57:31.733359200] POST data saved successfully
+[2026-04-09T10:57:31.740359] Incoming request: GET /success.html HTTP/1.1
+[2026-04-09T10:57:31.745357800] GET /success.html → 200 OK
+[2026-04-09T10:57:34.409810900] Incoming request: GET / HTTP/1.1
+[2026-04-09T10:57:34.420825900] GET /index.html → 200 OK
+[2026-04-09T10:59:36.627372700] WARNING: Client sent empty request
+[2026-04-09T11:05:13.323980300] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:05:13.327549600] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:05:13.333548300] POST request received
+[2026-04-09T11:05:13.336549900] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:05:13.342548200] SECURITY: Empty fields detected
+[2026-04-09T11:05:17.513365200] Incoming request: GET / HTTP/1.1
+[2026-04-09T11:05:17.520365500] GET /index.html → 200 OK
+[2026-04-09T11:06:12.681287600] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:06:12.686271800] POST raw data: name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:06:12.697740] POST request received
+[2026-04-09T11:06:12.699760600] SECURITY: Malicious input detected → name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:06:12.700841700] SECURITY: Invalid characters in name → scriptalert(1)/script
+[2026-04-09T11:11:10.697641800] WARNING: Client sent empty request
+[2026-04-09T11:11:19.536699900] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:11:19.537700500] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:11:19.539731800] POST request received
+[2026-04-09T11:11:19.541315600] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:11:19.542338300] SECURITY: Empty fields detected
+[2026-04-09T11:11:22.747934600] Incoming request: GET / HTTP/1.1
+[2026-04-09T11:11:22.754969700] GET /index.html → 200 OK
+[2026-04-09T11:11:34.219697900] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:11:34.221991900] POST raw data: name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:11:34.223993300] POST request received
+[2026-04-09T11:11:34.223993300] SECURITY: Malicious input detected → name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:11:34.224992400] SECURITY: Invalid characters in name → scriptalert(1)/script
+[2026-04-09T11:18:18.603365200] WARNING: Client sent empty request
+[2026-04-09T11:45:09.461917700] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:45:09.480627500] POST raw data: name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:45:09.481627900] POST request received
+[2026-04-09T11:45:09.483624800] SECURITY: Malicious input detected → name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:45:09.484627600] SECURITY: Invalid characters detected
+[2026-04-09T11:45:36.492995500] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:45:36.494997400] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:45:36.495998100] POST request received
+[2026-04-09T11:45:36.496994900] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:45:36.497994900] SECURITY: Empty fields detected
+[2026-04-09T11:55:19.276942800] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:55:19.303072500] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:55:19.304072600] POST request received
+[2026-04-09T11:55:19.307074300] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:55:19.308074300] SECURITY: Suspicious input pattern detected → name=name=scriptalert(1)/script&message=hi
+[2026-04-09T11:55:45.575061100] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:55:45.576758400] POST raw data: name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:55:45.600470900] POST request received
+[2026-04-09T11:55:45.609526700] SECURITY: Malicious input detected → name=<script>alert(1)</script>&message=hi
+[2026-04-09T11:55:45.612494600] SECURITY: Invalid characters detected
+[2026-04-09T11:56:05.775191100] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:56:05.779191900] POST raw data: name=66666666666666666666666666666666666666666666666666666666666666666666666666&message=hi
+[2026-04-09T11:56:05.781226400] POST request received
+[2026-04-09T11:56:05.782199400] SECURITY: Input too long
+[2026-04-09T11:56:22.052642900] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T11:56:22.064742200] POST raw data: name=666&message=hi
+[2026-04-09T11:56:22.068364300] POST request received
+[2026-04-09T11:56:22.071533] POST data (sanitised): name=666&message=hi
+[2026-04-09T11:56:22.075856800] POST data saved successfully
+[2026-04-09T11:56:22.082152800] Incoming request: GET /success.html HTTP/1.1
+[2026-04-09T11:56:22.094109200] GET /success.html → 200 OK
+[2026-04-09T11:56:25.590512800] Incoming request: GET / HTTP/1.1
+[2026-04-09T11:56:25.624649500] GET /index.html → 200 OK
+[2026-04-09T12:02:03.512836] WARNING: Client sent empty request
+[2026-04-09T12:02:03.513847900] Incoming request: GET /submit HTTP/1.1
+[2026-04-09T12:02:03.517304] GET /submit → 404 Not Found
+[2026-04-09T12:02:09.998189600] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:02:09.999191100] WARNING: Client sent empty request
+[2026-04-09T12:02:10.000189200] POST raw data: {
+    "name" :"",
+    "message" : ""
+}
+[2026-04-09T12:02:10.001189800] POST request received
+[2026-04-09T12:02:10.002189200] SECURITY: Empty fields detected
+[2026-04-09T12:02:29.398059700] WARNING: Client sent empty request
+[2026-04-09T12:02:29.398059700] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:02:29.399060] POST raw data: {
+    "name" :"1444444448roi6ew8 jgyexjhtweyuycg uh",
+    "message" : ""
+}
+[2026-04-09T12:02:29.399060] POST request received
+[2026-04-09T12:02:29.400059600] SECURITY: Empty fields detected
+[2026-04-09T12:02:42.487201500] WARNING: Client sent empty request
+[2026-04-09T12:02:42.488202600] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:02:42.518423700] POST raw data: {
+    "name" :"1444444448roi6ew8 jgyexjhtweyuycg uh",
+    "message" : "hi"
+}
+[2026-04-09T12:02:42.519432300] POST request received
+[2026-04-09T12:02:42.532430900] SECURITY: Empty fields detected
+[2026-04-09T12:06:28.730699100] WARNING: Client sent empty request
+[2026-04-09T12:06:33.360178300] Incoming request: GET /etc/passwd HTTP/1.1
+[2026-04-09T12:06:33.366417700] GET /etc/passwd → 404 Not Found
+[2026-04-09T12:08:43.278915600] WARNING: Client sent empty request
+[2026-04-09T12:08:43.282916200] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:08:43.282916200] POST raw data: {
+    "name" :"name=<script>alert(1)</script>",
+    "message" : "hi"
+}
+[2026-04-09T12:08:43.283915600] POST request received
+[2026-04-09T12:08:43.284915800] SECURITY: Malicious input detected → {
+    "name" :"name=<script>alert(1)</script>",
+    "message" : "hi"
+}
+[2026-04-09T12:08:43.285916600] SECURITY: Empty fields detected
+[2026-04-09T12:09:00.081956700] WARNING: Client sent empty request
+[2026-04-09T12:09:00.083954500] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:09:00.085464800] POST raw data: {
+    "name" :"name",
+    "message" : "hi"
+}
+[2026-04-09T12:09:00.086464900] POST request received
+[2026-04-09T12:09:00.086464900] SECURITY: Empty fields detected
+[2026-04-09T12:09:08.595137100] WARNING: Client sent empty request
+[2026-04-09T12:09:08.595137100] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:09:08.597138100] POST raw data: {
+    "name" :"sam",
+    "message" : "hi"
+}
+[2026-04-09T12:09:08.598138100] POST request received
+[2026-04-09T12:09:08.599137600] SECURITY: Empty fields detected
+[2026-04-09T12:10:19.710591700] WARNING: Client sent empty request
+[2026-04-09T12:10:19.710591700] WARNING: Client sent empty request
+[2026-04-09T12:10:19.745705200] Incoming request: GET /aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa HTTP/1.1
+[2026-04-09T12:10:19.752184100] GET /aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa → 404 Not Found
+[2026-04-09T12:10:56.113868100] WARNING: Client sent empty request
+[2026-04-09T12:10:56.115860500] Incoming request: PUT /submit HTTP/1.1
+[2026-04-09T12:11:36.667477300] WARNING: Client sent empty request
+[2026-04-09T12:11:36.669469100] WARNING: Client sent empty request
+[2026-04-09T12:11:49.981639400] WARNING: Client sent empty request
+[2026-04-09T12:11:49.983643] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:11:49.983643] POST raw data: HELLO WORLD
+[2026-04-09T12:11:49.984639] POST request received
+[2026-04-09T12:11:49.985646200] SECURITY: Empty fields detected
+[2026-04-09T12:12:18.641515900] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:12:18.644525] POST raw data: name=@@@###$$$&message=hi
+[2026-04-09T12:12:18.645518] POST request received
+[2026-04-09T12:12:18.646520] SECURITY: Invalid characters detected
+[2026-04-09T12:14:06.380450900] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:14:06.380450900] WARNING: Client sent empty request
+[2026-04-09T12:14:06.381450300] POST raw data: {
+    "name" : "%3Cscript%3Ealert(1)%3C/script%3E",
+    "message" : "hi"
+
+}
+[2026-04-09T12:14:06.381450300] POST request received
+[2026-04-09T12:14:06.382449700] SECURITY: Empty fields detected
+[2026-04-09T12:15:13.946488200] WARNING: Client sent empty request
+[2026-04-09T12:15:13.969969200] Incoming request: GET /index.html%00.png HTTP/1.1
+[2026-04-09T12:15:13.977450800] GET /index.html%00.png → 404 Not Found
+[2026-04-09T12:23:01.506615800] WARNING: Client sent empty request
+[2026-04-09T12:23:01.509616200] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:23:01.509616200] POST raw data: name=1444444448roi6ew8 jgyexjhtweyuycg uh&message=hi
+[2026-04-09T12:23:01.511618500] POST request received
+[2026-04-09T12:23:01.519620900] POST data (sanitised): name=1444444448roi6ew8 jgyexjhtweyuycg uh&message=hi
+[2026-04-09T12:23:01.520621900] POST data saved successfully
+[2026-04-09T12:23:01.552129900] Incoming request: GET /success.html HTTP/1.1
+[2026-04-09T12:23:01.551131600] WARNING: Client sent empty request
+[2026-04-09T12:23:01.556131800] GET /success.html → 200 OK
+[2026-04-09T12:28:10.862056700] WARNING: Client sent empty request
+[2026-04-09T12:28:10.863381500] WARNING: Client sent empty request
+[2026-04-09T12:54:29.125586600] WARNING: Empty or invalid request received
+[2026-04-09T12:54:29.125586600] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:54:29.153823300] POST raw data: {
+    "name" : "<script>alert(1)</script>",
+    "message" : "hi"
+
+}
+[2026-04-09T12:54:29.154821800] POST request received
+[2026-04-09T12:54:29.154821800] INFO: JSON input detected
+[2026-04-09T12:54:29.158821800] SECURITY: Invalid characters detected
+[2026-04-09T12:55:22.230084] WARNING: Empty or invalid request received
+[2026-04-09T12:55:22.231084400] Incoming request: GET /aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa%20 HTTP/1.1
+[2026-04-09T12:55:22.235084200] GET /aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa%20 → 404 Not Found
+[2026-04-09T12:55:56.662427800] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:55:56.665423] POST raw data: name=@@@###$$$&message=hi
+[2026-04-09T12:55:56.667443400] POST request received
+[2026-04-09T12:55:56.671429100] POST data (sanitised): name=@@@###$$$&message=hi
+[2026-04-09T12:55:56.677410700] SECURITY: Invalid characters detected
+[2026-04-09T12:56:10.808117700] Incoming request: POST /submit HTTP/1.1
+[2026-04-09T12:56:10.811120200] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T12:56:10.833129900] POST request received
+[2026-04-09T12:56:10.840187600] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T12:56:10.847114400] POST data (sanitised): name=name=scriptalert(1)/script&message=hi
+[2026-04-09T12:56:10.849157700] SECURITY: Suspicious input pattern detected → name=name=<script>alert(1)</script>&message=hi

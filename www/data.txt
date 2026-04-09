@@ -7,3 +7,10 @@ name=%3Cb%3EAdmin%3C%2Fb%3E&message=hi
 name=%3Cb%3EAdmin%3C%2Fb%3E&message=hi
 name=bAdmin/b&message=hi
 name=bAdmin/b&message=hi
+name=sam&message=hi
+name=sam&message=hi
+name=&message=
+name=Bola&message=Bawo ni
+name=sam&message=hi
+name=666&message=hi
+name=1444444448roi6ew8 jgyexjhtweyuycg uh&message=hi
