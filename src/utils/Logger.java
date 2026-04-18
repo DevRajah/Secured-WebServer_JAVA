@@ -16,7 +16,7 @@ private static final String LOG_FILE = ServerConfig.LOG_FILE;
         String timestamp = java.time.LocalDateTime.now().toString();
         String logEntry = "[" + timestamp + "] " + message;
 
-        System.out.println(logEntry); // also print to console
+        System.out.println(logEntry);
 
         try (
             FileWriter fw = new FileWriter(LOG_FILE, true);
