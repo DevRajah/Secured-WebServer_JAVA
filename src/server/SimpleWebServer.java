@@ -17,6 +17,8 @@ import utils.Logger;
 public class SimpleWebServer {
      private static final ExecutorService threadPool = Executors.newFixedThreadPool(10);
 
+    
+
 
 
     public static void main(String[] args) {
@@ -34,6 +36,7 @@ public class SimpleWebServer {
                 Socket clientSocket = serverSocket.accept();
 
 
+                
                 // Handle each client in a thread pool for better performance
                 //new Thread(() -> ClientHandler.handleClient(clientSocket)).start();
                

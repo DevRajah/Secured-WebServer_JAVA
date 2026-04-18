@@ -311,3 +311,48 @@
 [2026-04-09T12:56:10.840187600] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
 [2026-04-09T12:56:10.847114400] POST data (sanitised): name=name=scriptalert(1)/script&message=hi
 [2026-04-09T12:56:10.849157700] SECURITY: Suspicious input pattern detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-09T12:58:24.379011100] WARNING: Empty or invalid request received
+[2026-04-16T18:47:27.027268900] Incoming request: GET / HTTP/1.1
+[2026-04-16T18:47:27.083874800] GET /index.html → 200 OK
+[2026-04-16T18:47:27.200861600] Incoming request: GET /favicon.ico HTTP/1.1
+[2026-04-16T18:47:27.233497] GET /favicon.ico → 404 Not Found
+[2026-04-16T21:47:46.695014500] Incoming request: GET / HTTP/1.1
+[2026-04-16T21:47:46.723668100] GET /index.html → 200 OK
+[2026-04-16T21:49:30.768156100] ERROR: Address already in use: bind
+[2026-04-16T22:03:58.186920400] Incoming request: POST /submit HTTP/1.1
+[2026-04-16T22:03:58.207215400] POST raw data: name=name=<script>alert(1)</script>&message=hi
+[2026-04-16T22:03:58.208198400] POST request received
+[2026-04-16T22:03:58.212191700] SECURITY: Malicious input detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-16T22:03:58.213178] POST data (sanitised): name=name=scriptalert(1)/script&message=hi
+[2026-04-16T22:03:58.213178] SECURITY: Suspicious input pattern detected → name=name=<script>alert(1)</script>&message=hi
+[2026-04-16T22:05:19.605890300] WARNING: Empty or invalid request received
+[2026-04-16T22:37:31.390917900] Incoming request: GET / HTTP/1.1
+[2026-04-16T22:37:31.405118600] GET /index.html → 200 OK
+[2026-04-17T09:02:48.334583600] Incoming request: POST /submit HTTP/1.1
+[2026-04-17T09:02:48.444446600] POST raw data: name=sam&message=hi
+[2026-04-17T09:02:48.447393900] POST request received
+[2026-04-17T09:02:48.529371300] POST data (sanitised): name=sam&message=hi
+[2026-04-17T09:02:48.571344700] POST data saved successfully
+[2026-04-17T09:02:48.588958200] Incoming request: GET /success.html HTTP/1.1
+[2026-04-17T09:02:48.654935700] GET /success.html → 200 OK
+[2026-04-17T19:22:59.202885700] Incoming request: GET /submit?name=sam&message=hello HTTP/1.1
+[2026-04-17T19:22:59.225997900] GET raw data: name=sam&message=hello
+[2026-04-17T19:22:59.230879800] GET data (sanitised): name=sam&message=hello
+[2026-04-17T19:22:59.236305700] GET data saved successfully
+[2026-04-17T19:22:59.245624400] Incoming request: GET /success.html HTTP/1.1
+[2026-04-17T19:22:59.265306700] GET /success.html → 200 OK
+[2026-04-17T19:23:02.810005] Incoming request: GET / HTTP/1.1
+[2026-04-17T19:23:02.816840700] GET /index.html → 200 OK
+[2026-04-17T19:31:43.657027700] WARNING: Empty or invalid request received
+[2026-04-17T19:35:32.488390200] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-17T19:35:32.521240800] GET /index.html → 200 OK
+[2026-04-17T19:36:17.103417100] Incoming request from 0:0:0:0:0:0:0:1: POST /submit HTTP/1.1
+[2026-04-17T19:36:17.109991900] POST raw data: name=sam&message=hi
+[2026-04-17T19:36:17.114950900] POST request received
+[2026-04-17T19:36:17.137885500] POST data (sanitised): name=sam&message=hi
+[2026-04-17T19:36:17.140812300] POST data saved successfully
+[2026-04-17T19:36:17.149350300] Incoming request from 0:0:0:0:0:0:0:1: GET /success.html HTTP/1.1
+[2026-04-17T19:36:17.153250200] GET /success.html → 200 OK
+[2026-04-17T19:36:43.489893500] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-17T19:36:43.509807600] GET /index.html → 200 OK
+[2026-04-17T20:00:23.346119] WARNING: Empty or invalid request received0:0:0:0:0:0:0:1

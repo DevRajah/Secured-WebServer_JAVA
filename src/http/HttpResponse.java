@@ -16,6 +16,8 @@ public class HttpResponse {
             contentType = "text/html";
         }
 
+        
+
                 
         String response =
                 "HTTP/1.1 " + status + "\r\n" +
