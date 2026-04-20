@@ -356,3 +356,26 @@
 [2026-04-17T19:36:43.489893500] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
 [2026-04-17T19:36:43.509807600] GET /index.html → 200 OK
 [2026-04-17T20:00:23.346119] WARNING: Empty or invalid request received0:0:0:0:0:0:0:1
+[2026-04-20T14:17:11.953946500] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-20T14:17:11.987952100] GET /index.html → 200 OK
+[2026-04-20T14:17:16.674804900] Incoming request from 0:0:0:0:0:0:0:1: POST /submit HTTP/1.1
+[2026-04-20T14:17:16.684548800] POST raw data: name=sam&message=hi
+[2026-04-20T14:17:16.685517700] POST request received
+[2026-04-20T14:17:16.713261300] POST data (sanitised): name=sam&message=hi
+[2026-04-20T14:17:16.725532300] POST data saved successfully
+[2026-04-20T14:17:16.734659500] Incoming request from 0:0:0:0:0:0:0:1: GET /success.html HTTP/1.1
+[2026-04-20T14:17:16.739140500] GET /success.html → 200 OK
+[2026-04-20T14:17:18.462066200] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-20T14:17:18.468488] GET /index.html → 200 OK
+[2026-04-20T14:19:50.590800500] WARNING: Empty or invalid request received0:0:0:0:0:0:0:1
+[2026-04-20T14:54:58.820344800] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-20T14:54:58.836268900] GET /index.html → 200 OK
+[2026-04-20T14:55:03.804600700] Incoming request from 0:0:0:0:0:0:0:1: POST /submit HTTP/1.1
+[2026-04-20T14:55:03.808519700] POST raw data: name=sam&message=hi
+[2026-04-20T14:55:03.809496] POST request received
+[2026-04-20T14:55:03.812428200] POST data (sanitised): name=sam&message=hi
+[2026-04-20T14:55:03.817856700] POST data saved successfully
+[2026-04-20T14:55:03.825228100] Incoming request from 0:0:0:0:0:0:0:1: GET /success.html HTTP/1.1
+[2026-04-20T14:55:03.829147300] GET /success.html → 200 OK
+[2026-04-20T14:55:08.142397500] Incoming request from 0:0:0:0:0:0:0:1: GET / HTTP/1.1
+[2026-04-20T14:55:08.144257] GET /index.html → 200 OK

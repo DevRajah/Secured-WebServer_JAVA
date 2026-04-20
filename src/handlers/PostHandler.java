@@ -23,7 +23,7 @@ public class PostHandler {
             String line;
 
             //Read headers to find Content-Length
-            while (!(line = in.readLine()).isEmpty()) {
+            while ((line = in.readLine()) != null && !line.isEmpty()) {
 
                 if (line.startsWith("Content-Length:")) {
                     contentLength = Integer.parseInt(line.split(":")[1].trim());
@@ -37,8 +37,17 @@ public class PostHandler {
             }
 
             //Read POST body
+            //char[] body = new char[contentLength];
+            //in.read(body, 0, contentLength);
+
             char[] body = new char[contentLength];
-            in.read(body, 0, contentLength);
+
+int totalRead = 0;
+while (totalRead < contentLength) {
+    int bytesRead = in.read(body, totalRead, contentLength - totalRead);
+    if (bytesRead == -1) break;
+    totalRead += bytesRead;
+}
 
             String postData = new String(body);
 
